@@ -43,6 +43,7 @@ body {
   float: left;
   width: 25%;
   text-align: center;
+  padding: 25px;
 }
 .fakeimg {
   padding: 0px;
@@ -64,6 +65,7 @@ body {
   background-color: white;
   width: 25%;
   text-align: center;
+  padding: 25px;
 }
 .row:after {
   content: "";
@@ -80,7 +82,7 @@ body {
 @media screen and (max-width: 600px) {
   .leftcolumn, .rightcolumn, .middlecolumn {   
     width: 100%;
-    padding: 0;
+    padding: 10px;
   }
 }
 /* Responsive layout - when the screen is less than 600px wide, make the navigation links stack on top of each other instead of next to each other */
