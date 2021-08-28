@@ -133,7 +133,7 @@ body {
   }
 }
 /* Responsive layout - when the screen is less than 768px wide, make the navigation static */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .topnavbar {
     position: static;
   }
